@@ -100,7 +100,10 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 # the space below.
 
 # EXPRESSIONS PLAYGROUND BEGINS
+def multiply_nums(num_a,num_b):
+  return num_a * num_b
 
+print(multiply_nums(2,multiply_nums(5,10)))
 
 
 # EXPRESSIONS PLAYGROUND ENDS
